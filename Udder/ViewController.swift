@@ -14,6 +14,13 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    override func viewDidLayoutSubviews() {
+        
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        dismiss(animated: <#T##Bool#>, completion: <#T##(() -> Void)?##(() -> Void)?##() -> Void#>)
+    }
 }
+
 
